@@ -1,0 +1,300 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background: #0a2345 ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+.hg{
+    min-height: 90vh;
+    align-items: center;
+}
+.navbar-light .navbar-nav .nav-item{
+    padding-left: 20px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 17px;
+    position: relative;
+    padding: 0;
+}
+.navbar-light .navbar-nav .nav-link::before {
+    position: absolute;
+    content: '';
+    color: #fff;
+    font-size: 17px;
+    height: 2px;
+    bottom: -10px;
+    left: 0;
+    width: 0%;
+    background: #008ed6;
+    transition: .3s all ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link::after {
+    position: absolute;
+    content: '';
+    color: #fff;
+    font-size: 17px;
+    height: 2px;
+    bottom: -10px;
+    right: 0;
+    width: 0%;
+    background: #008ed6;
+    transition: .3s all ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:hover::before {
+    width: 45%;
+}
+.navbar-light .navbar-nav .nav-link:hover::after {
+    width: 45%;
+}
+.hg{
+    min-height: 90vh;
+    align-items: center;
+}
+.header-content{
+text-align: center;
+}
+.header-content span{
+    
+color: #2a5da3;
+    
+text-transform: uppercase;
+    
+font-size: 50px;
+    
+letter-spacing: 1.5px;
+
+}
+.header-content h1{
+    
+color: #fff;
+    
+font-size: 50px;
+    
+margin-left: 20px;
+    
+margin-bottom: 25px;
+}
+.header-content h3{
+    
+color: #2a5da3;
+    
+margin-left: 20px;
+    
+margin-bottom: 65px;
+}
+.btn-download{
+
+color: #fff;
+
+background: transparent;
+
+border: 3px solid #2a5da3;
+
+font-size: 14px;
+
+font-weight: 700;
+
+padding: 12px 18px;
+
+text-transform: uppercase;
+
+border-radius: 60px;
+
+transition: .5s all ease-in-out;
+
+/* margin-left: 20px; */
+
+margin-bottom: 20px;
+
+margin-top: 10px;
+}
+.btn-download:hover{
+    color: #0a2345;
+
+    background: #fff;
+
+border: 3px solid #2a5da3;
+
+font-size: 14px;
+
+padding: 12px 18px;
+
+text-transform: uppercase;
+
+
+    
+  
+    }
+.display-section{
+    background: #0a2345 ;
+    background-image: url(../images/display.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+.display{
+    height: 100%;
+  
+    transition: .5s all ease-in-out;
+}
+.display:hover{
+    height: 105%;
+   
+}
+/* --------display ends here-
+::-webkit-meter-even-less-good-value
+---- */
+/* -----------
+--------detail  starts here--------
+------------ */
+.detail-section{
+background: #0a2345;
+}
+.description{
+
+}
+.description h1{
+    color: #fff;
+    
+    font-size: 50px;
+}
+.description span{
+    color: #2a5da3;
+    
+text-transform: uppercase;
+    
+font-size: 50px;
+    
+letter-spacing: 1.5px;
+    
+}
+.description p{
+    color: #56555b;
+}
+/* -----------
+--------detail  endss here--------
+------------ */
+/* -----------
+--------features endss here--------
+------------ */
+.features-section{
+    background: #0a2345 ;
+    position: relative;
+}
+.fd{
+
+}
+.fd ul{list-style: none;padding: 10px;}
+.fd ul li{
+
+}
+.fd ul li i{color: #ff3334;font-size: 25px;}
+.fd ul li h3{
+color: #fff;
+}
+.fd ul li p{
+color: #56555b;
+}
+
+.phone{
+    position: absolute;
+    width: 45%;
+    bottom: 0%;
+   
+    left: 27%;
+    height: 90%;
+}
+/* -----------
+--------features endss here--------
+------------ */
+
+/* -----------
+--------graphic starts here--------
+------------ */
+.graphic-section{
+    background: #0a2345;
+}
+.graph{
+    display: flex;
+    align-items: center;
+}
+
+/* -----------
+--------graphic ends here--------
+------------ */
+/* -----------
+--------discover starts here--------
+------------ */
+
+.discover-section{
+background:#030810;
+text-align: center;
+}
+.discover-section h2{
+    color: #fff;
+}
+.discover-section p{
+    color: #56555b;
+    margin: 2% 25%;
+}
+.discover-section ul{
+    
+list-style: none;
+    
+display: flex;
+    
+align-items: center;
+}
+.discover-section ul li{
+    
+}
+.discover-section ul li img{
+    
+}
+
+
+/* -----------
+--------discover ends here--------
+------------ */
+/* -----------
+--------footer starts here--------
+------------ */
+footer{
+    background:#030810;
+    border-top: #2a5da3 solid 1px;
+    display: flex;
+    align-items: center;
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+footer ul li{
+    
+color: #2a5da3;
+}
+footer p{
+
+color: #2a5da3;
+
+/* display: flex; */
+}
+/* -----------
+--------footer ends here--------
+------------ */
+
